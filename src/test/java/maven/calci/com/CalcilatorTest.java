@@ -28,4 +28,10 @@ public class CalcilatorTest {
 		Calcilator c = new Calcilator();
 		assertEquals(1, c.multiply(1, 1));
 	}
+	
+	@Test
+	public void sumTest(){
+		Calcilator c = new Calcilator();
+		assertEquals(1, c.sum(1, 1, 1));
+	}
 }

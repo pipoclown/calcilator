@@ -20,4 +20,8 @@ public class Calcilator {
 	int multiply(int i, int j){
 		return i * j;
 	}
+	
+	int sum (int x, int y, int z){
+		return 10;
+	}
 }
