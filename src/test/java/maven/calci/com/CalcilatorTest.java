@@ -22,4 +22,10 @@ public class CalcilatorTest {
 		Calcilator c = new Calcilator();
 		assertEquals(1, c.divide(1, 1));
 	}
+	
+	@Test
+	public void multiplyTest(){
+		Calcilator c = new Calcilator();
+		assertEquals(1, c.multiply(1, 1));
+	}
 }
