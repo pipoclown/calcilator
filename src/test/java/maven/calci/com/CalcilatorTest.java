@@ -10,5 +10,10 @@ public class CalcilatorTest {
 		Calcilator c = new Calcilator();
 		assertEquals(2, c.add(1, 1));
 	}
-
+	
+	@Test
+	public void subtractTest(){
+		Calcilator c = new Calcilator();
+		assertEquals(0, c.subtract(1, 1));
+	}
 }
